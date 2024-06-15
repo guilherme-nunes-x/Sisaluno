@@ -32,7 +32,6 @@ h1 {
 }
 
 main {
-    display: flex;
     background: #000000;
     padding: 2vh;
     height: 80vh;
