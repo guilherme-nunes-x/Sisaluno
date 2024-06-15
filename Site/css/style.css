@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    position: relative;
+    padding-left: 5%;
+    background: #303031;
+}
+
+h1,
+h2,
+p {
+    font-family: 'Jost', sans-serif;
+    color: #CBCBCB;
+    text-align: center;
+}
+
+h2 {
+    font-size: 5vh;
+}
+
+h1 {
+    font-size: 8.8vh;
+}
+
+main {
+    display: flex;
+    background: #000000;
+    padding: 2vh;
+    height: 80vh;
+    width: 95%;
+    border-radius: 2.67vh;
+    display: grid;
+    grid-template-columns: 5% auto;
+
+}
+
+.text {
+    gap: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+img {
+    opacity: 0.5;
+}
+
+button {
+    padding: 2.5vh 3vh;
+    width: 45vh;
+    background: #225ABD;
+    border: none;
+    border-radius: 1vh;
+    font-family: 'Jost', sans-serif;
+    color: #CBCBCB;
+    font-size: 3.5vh;
+    cursor: pointer;
+}
+
+#btn {
+    margin-top: 6vh;
+}
+
+a {
+    text-decoration: none;
+    color: #225ABD;
+    font-family: 'Jost', sans-serif;
+}
+
+#btn-x {
+    margin-bottom: 1vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900; 1.100.900&display=swap');
