@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Site/css/style.css" />
+    <link rel="stylesheet" href="/Site/css/style-login.css" />
     <link rel="shortcut icon" href="/Site/img/logo1.svg" type="image/x-icon" />
 
     <title>Cis-Aluno</title>
@@ -15,9 +15,35 @@
       </a>
     </div>
     <main>
-      <div id="logo2">
+      <div>
         <img id="logo2" src="/Site/img/logo2.svg" alt="" />
       </div>
+      <section>
+      <form action="/Site/html/login/aluno.html" method="get">
+        <div class="for">
+          <label for="">
+            <input type="text" name="email" placeholder="E-mail" required />
+          </label>
+          <label for="">
+            <input type="text" name="senha" placeholder="Senha" required />
+          </label>
+
+          <p>
+            <a href="#">Esqueceu a senha?</a>
+          </p>
+        </div>
+        <div class="buts">
+          <label for="submit"></label>
+          <input id="log" type="submit" name="submit" value="Login" />
+        </div>
+      </form>
+      <div class="pit">
+      <a href="/Site/html/options/cadastro.html">
+        <button id="btns">Cadastre-Se</button>
+      </a>
+    </div>
+    </div>
+    </section>
     </main>
   </body>
 </html>

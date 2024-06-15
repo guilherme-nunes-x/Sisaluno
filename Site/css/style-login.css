@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    padding-left: 5%;
+    background: #303031;
+}
+
+h1,
+h2,
+p {
+    font-family: 'Jost', sans-serif;
+    color: #CBCBCB;
+    text-align: center;
+}
+
+h2 {
+    font-size: 5vh;
+}
+
+h1 {
+    font-size: 8.8vh;
+}
+
+main {
+    display: flex;
+    background: #000000;
+    padding: 2vh;
+    height: 80vh;
+    width: 95%;
+    border-radius: 2.67vh;
+    flex-direction: column column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+
+.text {
+    gap: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+img {
+    opacity: 0.5;
+}
+
+button, #log {
+    padding: 2vh 3vh;
+    width: 50vh;
+    background: #225ABD;
+    border: none;
+    border-radius: 1vh;
+    font-family: 'Jost', sans-serif;
+    color: #ffffff;
+    font-size: 3.5vh;
+    cursor: pointer;
+    text-align: center;
+    animation: 5ms;
+}
+#log:hover{
+    background: #ffffff;
+    color: #225ABD;
+    transition: .5s
+}
+#btn {
+    margin-top: 6vh;
+}
+
+a {
+    text-decoration: none;
+    color: #225ABD;
+    font-family: 'Jost', sans-serif;
+    text-align: left;
+    animation: 5ms;
+}
+#init:hover{
+    color: #ffffff;
+    transition: .5s;
+}
+#btn-x {
+    margin-bottom: 1vh;
+}
+
+#logo2 {
+    height: 55vh;
+    margin-left: 5vh ;
+}
+
+input {
+    text-align: initial;
+    background: none;
+    outline: none;
+    padding: 2vh 0vh 1.5vh 0vh;
+    width: 50vh;
+    outline: none;
+    font-size: 3vh;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-family: "Jost", sans-serif;
+    border: none;
+    border-bottom: #303031 solid .5vh;
+    width: 65vh;
+    animation: 5ms;
+}
+input:hover{
+    border-bottom: #ffffff solid .5vh;
+    transition: .5s;
+}
+#btns {
+    background: none;
+    border: #ffffff inset .3vh;
+    animation: 5ms;
+}
+#btns:hover{
+    background: #ffffff;
+    color: #000000;
+    transition: .5s;
+}
+.buts{
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    padding-bottom: 2vh;
+}
+.pit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+.for{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900; 1.100.900&display=swap');
