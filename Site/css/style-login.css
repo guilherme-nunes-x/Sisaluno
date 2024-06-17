@@ -1,3 +1,14 @@
+/* css da telas de login 
+*  Reponsavel: Guilherme Nunes
+*
+*/
+:root {
+    --c1: #303031;
+    --c2: #cbcbcb;
+    --b1: #000000;
+    --w1: #ffffff;
+    --b2: #225ABD;
+}
 * {
     margin: 0;
     padding: 0;
@@ -11,14 +22,14 @@ body {
     align-items: flex-start;
     height: 100vh;
     padding-left: 5%;
-    background: #303031;
+    background: var(--c1);
 }
 
 h1,
 h2,
 p {
     font-family: 'Jost', sans-serif;
-    color: #CBCBCB;
+    color: var(--c2);
     text-align: center;
 }
 
@@ -32,7 +43,7 @@ h1 {
 
 main {
     display: flex;
-    background: #000000;
+    background: var(--b1);
     padding: 2vh;
     height: 80vh;
     width: 95%;
@@ -54,24 +65,29 @@ main {
 
 img {
     opacity: 0.5;
+    animation: 5ms;
+}
+img:hover{
+    opacity: .9;
+    transition: all .5s;
 }
 
 button, #log {
     padding: 2vh 3vh;
     width: 50vh;
-    background: #225ABD;
+    background: var(--b2);
     border: none;
     border-radius: 1vh;
     font-family: 'Jost', sans-serif;
-    color: #ffffff;
+    color: var(--w1);
     font-size: 3.5vh;
     cursor: pointer;
     text-align: center;
     animation: 5ms;
 }
 #log:hover{
-    background: #ffffff;
-    color: #225ABD;
+    background: var(--w1);
+    color: var(--b2);
     transition: .5s
 }
 #btn {
@@ -80,13 +96,13 @@ button, #log {
 
 a {
     text-decoration: none;
-    color: #225ABD;
+    color: var(--b2);
     font-family: 'Jost', sans-serif;
     text-align: left;
     animation: 5ms;
 }
 #init:hover{
-    color: #ffffff;
+    color: var(--w1);
     transition: .5s;
 }
 #btn-x {
@@ -107,25 +123,25 @@ input {
     outline: none;
     font-size: 3vh;
     letter-spacing: 2px;
-    color: #ffffff;
+    color: var(--w1);
     font-family: "Jost", sans-serif;
     border: none;
-    border-bottom: #303031 solid .5vh;
+    border-bottom: var(--c2) solid .5vh;
     width: 65vh;
     animation: 5ms;
 }
 input:hover{
-    border-bottom: #ffffff solid .5vh;
+    border-bottom: var(--w1) solid .5vh;
     transition: .5s;
 }
 #btns {
     background: none;
-    border: #ffffff inset .3vh;
+    border: var(--w1) inset .3vh;
     animation: 5ms;
 }
 #btns:hover{
-    background: #ffffff;
-    color: #000000;
+    background: var(--w1);
+    color: var(--b1);
     transition: .5s;
 }
 .buts{
