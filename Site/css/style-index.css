@@ -1,3 +1,15 @@
+/* css da tela principal 
+*  Reponsavel: Guilherme Nunes
+*
+*/
+:root {
+    --c1: #303031;
+    --c2: #cbcbcb;
+    --b1: #000000;
+    --w1: #ffffff;
+    --b2: #225ABD;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,17 +24,16 @@ body {
     height: 100vh;
     position: relative;
     padding-left: 5%;
-    background: #303031;
+    background: var(--c1);
 }
 
 h1,
 h2,
 p {
     font-family: 'Jost', sans-serif;
-    color: #CBCBCB;
+    color: var(--c2);
     text-align: center;
 }
-
 h2 {
     font-size: 5vh;
 }
@@ -32,7 +43,7 @@ h1 {
 }
 
 main {
-    background: #000000;
+    background: var(--b1);
     padding: 2vh;
     height: 80vh;
     width: 95%;
@@ -53,27 +64,37 @@ main {
 
 img {
     opacity: 0.5;
+    animation: 5ms;
+}
+img:hover{
+    opacity: .9;
+    transition: all .5s;
 }
 
 button {
     padding: 2.5vh 3vh;
     width: 45vh;
-    background: #225ABD;
+    background: var(--b2);
     border: none;
     border-radius: 1vh;
     font-family: 'Jost', sans-serif;
-    color: #CBCBCB;
+    color: var(--c2);
     font-size: 3.5vh;
     cursor: pointer;
+    animation: 5ms;
 }
 
+button:active{
+    opacity: 0.9;
+    transition: all .5s;
+}
 #btn {
     margin-top: 6vh;
 }
 
 a {
     text-decoration: none;
-    color: #225ABD;
+    color: var(--b2);
     font-family: 'Jost', sans-serif;
 }
 
