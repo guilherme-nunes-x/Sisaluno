@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/Site/css/style.css" />
     <link rel="shortcut icon" href="/Site/img/logo1.svg" type="image/x-icon" />
-
+    <link rel="stylesheet" href="/Site/css/style-login.css">
+    <link rel="stylesheet" href="/Site/css/style-cadastro.css">
     <title>Cis-Aluno</title>
   </head>
   <body>
@@ -15,6 +16,50 @@
       </a>
     </div>
     <main>
+      <section>
+        <h2>Cadastro - Aluno</h2>
+        <form action="/Site/html/cadastro/professor.html" method="get">
+          <label for="nome">
+            <input type="text" name="nome" placeholder="Nome" required />
+          </label>
+          <div class="division">
+          <label for="data">
+            <input type="date" name="data" placeholder="Data Nascimento" required>
+          </label>
+          <label for="genero">
+            <select name="genero" id="genero" aria-placeholder="Genero" required>
+              <option value="Masculino" selected>Masculino</option>
+              <option value="Feminino" selected>Feminino</option>
+              <option value="Outro" selected>Outro</option>
+            </select>
+          </label>
+        </div>
+        <div class="division">
+          <label for="cidade">
+            <input type="text" name="cidade" placeholder="Cidade" required />
+          </label>
+          <label for="Estado">
+            <input type="text" name="estado" placeholder="Estado" required>
+          </label>
+        </div>
+        <label for="endereco">
+          <input type="text" name="endereco" placeholder="Endereço" required />                                 
+        </label>
+        <div class="division">
+          <label for="CPF">
+            <input type="text" name="CPF" placeholder="CPF" required">
+          </label>
+          <label for="N° de telefone">
+            <input type="text" name="N° de telefone" placeholder="N° de telefone" required>
+          </label>
+        </div>
+                <div class="buts">
+          <label for="submit">
+          <input id="log" type="submit" name="submit" value="Cadastrar" />
+        </label>
+        </div>
+        </form>
+      </section>
       <div id="logo2">
         <img id="logo2" src="/Site/img/logo2.svg" alt="" />
       </div>

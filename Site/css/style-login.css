@@ -114,7 +114,7 @@ a {
     margin-left: 5vh ;
 }
 
-input {
+input, select {
     text-align: initial;
     background: none;
     outline: none;

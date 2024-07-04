@@ -1,0 +1,46 @@
+#logo2 {
+    margin-top: 5vh;
+    height: 50vh;
+}
+
+main {
+    display: flex;
+    flex-direction: repeat(2, column);
+    justify-content: start;
+    align-items: start;
+    gap: 15vh;
+    padding: 8vh;
+}
+
+main h2 {
+    padding-bottom: 1vh;
+    text-align: start;
+}
+
+/* select{
+    all: inherit;
+} */
+.division{
+    display: flex;
+    justify-content: start;
+    flex-direction: repeat(2, column);
+    gap: 2vh;
+}
+.division input, select {
+    width: 31.5vh;
+}
+
+form input{
+    margin-bottom: 2.5vh;
+}
+.buts{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 2vh;
+    margin-top: -1.5vh;
+}
+.buts #log{
+    width: 25vh;
+}
